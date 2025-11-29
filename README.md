@@ -5,7 +5,7 @@
 
 - **角色卡（Character Cards）** — PNG / JSON  
 - **世界書（Lorebooks）** — JSON  
-- **狀態欄 / UI Assets** / **正則模板（Regex Templates）**  
+- **狀態欄 / 對應正則模板**  
 - **教程（本地酒館安裝教程、Gemini API獲取教程）**
 
 Follow my 小紅書 or join our discord community for more 
