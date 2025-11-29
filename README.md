@@ -8,7 +8,7 @@
 - **狀態欄 / 對應正則模板**  
 - **教程（本地酒館安裝教程、Gemini API獲取教程）**
 
-Follow my 小紅書 or join our discord community for more! 
+
 ---
 
 ## 📘 使用授權（License & Permissions）
