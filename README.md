@@ -8,14 +8,13 @@
 - **狀態欄 / 對應正則模板**  
 - **教程（本地酒館安裝教程、Gemini API獲取教程）**
 
-Follow my 小紅書 or join our discord community for more 
+Follow my 小紅書 or join our discord community for more! 
 ---
 
 ## 📘 使用授權（License & Permissions）
 
 ### ✔ 允許
-- **開放二改**  
-- 在個人本地 SillyTavern 中使用  
+- **所有作品開放二改**  
 
 ### ❌ 禁止
 - **嚴禁商用**  
