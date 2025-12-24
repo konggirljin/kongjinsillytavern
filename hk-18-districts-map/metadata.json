@@ -1,0 +1,10 @@
+
+{
+  "name": "HK 18 Districts Map",
+  "id": "hk-18-districts-map",
+  "version": "1.0.0",
+  "description": "Interactive selection of Hong Kong districts that fills the chat input box.",
+  "author": "Senior Frontend Engineer",
+  "entrypoint": "index.js",
+  "requestFramePermissions": []
+}

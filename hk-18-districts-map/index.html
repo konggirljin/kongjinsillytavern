@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HK Map Extension</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3"
+      }
+    }
+    </script>
+    <style>
+        /* Transparent background for better integration */
+        body { background-color: transparent !important; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 10px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+    </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-transparent overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+    <script>
+        // Listen for parent messages if needed (Bridge for Iframe integration)
+        window.addEventListener('message', function(event) {
+            if (event.data.type === 'SillyTavernReady') {
+                console.log('SillyTavern Iframe Bridge Established');
+            }
+        });
+    </script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
